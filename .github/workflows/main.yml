@@ -3,11 +3,12 @@ on: [push]
 jobs:
  Cypress-Test:
    runs-on: ubuntu-latest
-   steps:   
-    - name: install
-       command: npm i 
-    - name: Run Cypress Test
+   steps:  
+     - name: Checkout GitCode
+       uses: actions/checkout@v2
+ 
+     - name: Run Cypress Test
        uses: cypress-io/github-action@v4
        with:
-         command: npm start 
+         command: npm start
          browser: chrome
