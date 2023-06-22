@@ -1,0 +1,22 @@
+{
+    "newUser":{
+        "EmployeeName":"chakri  polishetty",
+        "username": "bonbonne",
+        "password": "admin123",
+        "UserRole":"Admin",
+        "Status":"Enabled"
+      },
+    "findUser":{
+        "EmployeeName":"chakri  polishetty",
+        "username": "Admin",
+        "UserRole":"Admin",
+        "Status":"Enabled"
+    },
+    "userNameDeleted":"Admin2",
+    "editUser":{
+        "EmployeeName":"",
+        "username": "Admin2",
+        "UserRole":"Admin",
+        "Status":"Enabled"
+      }
+}
