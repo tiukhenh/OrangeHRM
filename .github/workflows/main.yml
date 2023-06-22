@@ -5,7 +5,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Run Cypress Test
-       uses: cypress-io/github-action@v4
        with:
          command: npm start
          browser: chrome
