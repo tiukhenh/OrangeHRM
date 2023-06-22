@@ -12,8 +12,9 @@ jobs:
        with:
          command: npm start
          browser: chrome
-     - name: HTML Preview
-       id: html_preview
-       uses: pavi2410/html-preview-action@v2
+     - name: report
+       uses: actions/upload-artifact@v2
        with:
-           html_file: 'index.html'
+            name: cypress-reprot
+            path: cypress/reports/index.html
+            retention-days: 30
