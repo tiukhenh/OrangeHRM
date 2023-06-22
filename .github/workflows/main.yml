@@ -7,5 +7,5 @@ jobs:
      - name: Run Cypress Test
        uses: cypress-io/github-action@v4
        with:
-         command: npm start
+         command: npm install && npm start
          browser: chrome
