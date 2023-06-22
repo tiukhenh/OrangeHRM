@@ -12,10 +12,10 @@
         "UserRole":"Admin",
         "Status":"Enabled"
     },
-    "userNameDeleted":"Admin2",
+    "userNameDeleted":"Fiona.Grace",
     "editUser":{
         "EmployeeName":"",
-        "username": "Admin2",
+        "username": "Fiona.Grace",
         "UserRole":"Admin",
         "Status":"Enabled"
       }
