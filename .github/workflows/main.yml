@@ -12,3 +12,9 @@ jobs:
        with:
          command: npm start
          browser: chrome
+     - name: report
+       uses: actions/upload-artifact@v2
+       with:
+         name: cypress-reprot
+         path: cypress-report/index.html
+         retention-days: 30
