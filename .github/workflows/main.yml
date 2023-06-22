@@ -3,9 +3,11 @@ on: [push]
 jobs:
  Cypress-Test:
    runs-on: ubuntu-latest
-   steps:
+   steps:   
      - name: Run Cypress Test
        uses: cypress-io/github-action@v4
+       build: yarn build
+       start: yarn start
        with:
          command: npm start
          browser: chrome
